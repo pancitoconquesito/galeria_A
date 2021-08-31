@@ -1,0 +1,127 @@
+.contenedor {
+  height: 800px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#casi {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px; }
+
+.cubo {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  animation-name: animCubo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; }
+
+@keyframes animCubo {
+  from {
+    width: 50px;
+    height: 50px; }
+  75% {
+    width: 50px;
+    height: 50px; }
+  85% {
+    width: 150px;
+    height: 150px; }
+  95% {
+    width: 50px;
+    height: 50px; }
+  to {
+    width: 50px;
+    height: 50px; } }
+#btn {
+  background-color: burlywood; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
+h1 {
+  margin-left: 50%; }
+
+#caja {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center; }
+  #caja .cajita {
+    width: 220px;
+    height: 300px;
+    background-color: #d1d1d1;
+    transition-property: background-color,  box-shadow;
+    transition-duration: 0.5s;
+    transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; }
+    #caja .cajita img {
+      width: 90%;
+      margin: 2%;
+      border: 3px solid white;
+      max-height: 250px;
+      flex: 9; }
+    #caja .cajita div {
+      width: 95%;
+      margin: 2%;
+      background-color: rgba(53, 46, 82, 0.5);
+      border-radius: 5%;
+      -webkit-border-radius: 5%;
+      -moz-border-radius: 5%;
+      -ms-border-radius: 5%;
+      -o-border-radius: 5%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex: 1; }
+      #caja .cajita div .material-icons {
+        margin-left: 10%;
+        color: #e292a3;
+        transition: color 1s linear;
+        -webkit-transition: color 0.2s linear;
+        -moz-transition: color 0.2s linear;
+        -ms-transition: color 0.2s linear;
+        -o-transition: color 0.2s linear; }
+      #caja .cajita div .material-icons:hover {
+        color: white;
+        transition: color; }
+      #caja .cajita div #fuente {
+        margin-left: 5%;
+        color: white; }
+  #caja .cajita:hover {
+    background-color: #b3b4eb;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=estilos.css.map */
