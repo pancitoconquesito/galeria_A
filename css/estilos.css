@@ -1,3 +1,6 @@
+body {
+  background-color: #9bb5da; }
+
 .contenedor {
   height: 800px;
   background-color: blueviolet;
@@ -75,11 +78,11 @@ h1 {
     background-color: #d1d1d1;
     transition-property: background-color,  box-shadow;
     transition-duration: 0.5s;
-    transition: background-color 0.5s linear;
-    -webkit-transition: background-color 0.5s linear;
-    -moz-transition: background-color 0.5s linear;
-    -ms-transition: background-color 0.5s linear;
-    -o-transition: background-color 0.5s linear;
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
     box-sizing: border-box;
     margin-bottom: 50px;
     text-align: center;
@@ -120,7 +123,7 @@ h1 {
         margin-left: 5%;
         color: white; }
   #caja .cajita:hover {
-    background-color: #b3b4eb;
+    background-color: #8283c7;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.5); }
 

@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(155, 181, 218);
+}
 .contenedor{
     height: 800px;
     background-color: blueviolet;
@@ -87,11 +90,11 @@ h1{
         background-color: rgb(209, 209, 209);
         transition-property: background-color,  box-shadow;
         transition-duration: 0.5s;
-        transition: background-color 0.5s linear;
-        -webkit-transition: background-color 0.5s linear;
-        -moz-transition: background-color 0.5s linear;
-        -ms-transition: background-color 0.5s linear;
-        -o-transition: background-color 0.5s linear;
+        transition: background-color 0.3s linear;
+        -webkit-transition: background-color 0.3s linear;
+        -moz-transition: background-color 0.3s linear;
+        -ms-transition: background-color 0.3s linear;
+        -o-transition: background-color 0.3s linear;
         //-webkit-box-shadow: 0px 0px 0px 0px #000000;
         //box-shadow: 0px 0px 0px 0px #000000;
         //border: 1px solid rgba(104, 101, 101, 0.384);
@@ -106,7 +109,7 @@ h1{
         //-moz-border-radius: 5%;
         //-ms-border-radius: 5%;
         //-o-border-radius: 5%;
-        img        
+        img
         {
             width: 90%;
             margin: 2%;
@@ -152,7 +155,7 @@ h1{
     }
 
     .cajita:hover{
-        background-color: rgb(179, 180, 235);
+        background-color: rgb(130, 131, 199);
         -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5); 
         box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
 
